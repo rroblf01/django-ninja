@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "djangoninja/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "djangoninja/wsgi.py"
+      }
+    ]
+  }

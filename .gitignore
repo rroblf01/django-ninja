@@ -1,0 +1,11 @@
+# Django project
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# env
+.env
